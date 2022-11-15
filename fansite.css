@@ -234,27 +234,7 @@ button:active {
   .hover-img:hover figcaption {
     opacity: 1;
   }
-/*/////////////////////////////////////////////
-                EFFETS IMAGE
-/////////////////////////////////////////////*/
-.zoom img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-.zoom :hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-}
-.opacity img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.opacity :hover img {
-	opacity: .5;
-}
+
 /*/////////////////////////////////////////////
                 SECTION NAV 
 ////////////////////////////////////////////*/
@@ -357,6 +337,7 @@ button:active {
     height: auto;
     flex-basis: 200px;
 }
+
 /*/////////////////////////////////////////////
                 PAGE GALERIE
 ////////////////////////////////////////////*/
@@ -613,5 +594,19 @@ a.transparent::after {
     line-height: 2;
 }
 
-
+@media (max-width: 768px) {
+    .teaser {
+        flex-direction: column;
+    }
+    .inner_teaser {
+        flex-basis: 100%;
+    }
+    .festivals div {
+        flex-direction: column;
+        padding: 20px;
+    }
+    h2.fest {
+        font-size: 62px!important;
+    }
+}
 
