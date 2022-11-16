@@ -448,6 +448,7 @@ img.concours_camargue {
     padding: 2%;
     margin: 1%;
 }
+
 /*/////////////////////////////////////////////
                 PAGE BLOG
 ////////////////////////////////////////////*/
@@ -467,10 +468,11 @@ img.concours_camargue {
     box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
 }
 .art_img {
-    width: 50%;
+    width: 100%;
 }
 .art_txt {
-    width: 50%;
+    width: 100%;
+    padding: 10px;
 }
 /******Voir .row et .col plus haut dans les tools ********/
 .content_blog article {
